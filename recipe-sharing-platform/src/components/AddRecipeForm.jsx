@@ -63,7 +63,7 @@ rows="4"
 className="w-full p-2 border rounded-xl focus:ring focus:ring-blue-300"
 ></textarea>
 {errors.steps && (
-<p className="text-red-500 text-sm">{errors.steps}</p>
+<p className="text-red-500 sm:text-sm md:text-md">{errors.steps}</p>
 )}
 </div>
 
