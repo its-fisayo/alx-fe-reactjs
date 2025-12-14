@@ -4,28 +4,28 @@ function RegistrationForm() {
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
+  const [error, setErrors] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     // Basic validation
     if (!username) {
-      setError("All fields are required");
+      setErrors("All fields are required");
       return;
     }
 
     if (!email) {
-      setError("All fields are required");
+      setErrors("All fields are required");
       return;
     }
 
     if (!password) {
-      setError("All fields are required");
+      setErrors("All fields are required");
       return;
     }
 
-    setError("");
+    setErrors("");
 
     // Mock API request
     const userData = {
