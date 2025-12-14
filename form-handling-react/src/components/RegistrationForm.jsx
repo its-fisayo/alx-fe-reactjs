@@ -10,7 +10,17 @@ function RegistrationForm() {
     e.preventDefault();
 
     // Basic validation
-    if (!username || !email || !password) {
+    if (!username) {
+      setError("All fields are required");
+      return;
+    }
+
+    if (!email) {
+      setError("All fields are required");
+      return;
+    }
+
+    if (!password) {
       setError("All fields are required");
       return;
     }
