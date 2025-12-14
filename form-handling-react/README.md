@@ -1,16 +1,38 @@
-# React + Vite
+Form Handling in React (Controlled Components & Formik)
+📌 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates how to manage form data in React using two approaches:
 
-Currently, two official plugins are available:
+Controlled Components with React's useState
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Formik + Yup for scalable and maintainable form handling
 
-## React Compiler
+The application focuses on a User Registration Form with fields for username, email, and password, including validation and mock API submission.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is designed as a learning exercise for frontend beginners transitioning to real-world React form handling.
 
-## Expanding the ESLint configuration
+🎯 Learning Objectives
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+By completing this project, you will learn how to:
+
+Build forms using controlled components in React
+
+Manage input state and form submission manually
+
+Validate form inputs using custom logic
+
+Use Formik to simplify form state management
+
+Implement schema-based validation using Yup
+
+Structure React components cleanly and scalably
+
+🛠️ Technologies Used
+
+React (with Vite)
+
+JavaScript (ES6+)
+
+Formik
+
+Yup
