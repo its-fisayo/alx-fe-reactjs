@@ -1,5 +1,5 @@
 
-import FormikForm from "./components/FormikForm";
+import FormikForm from "components/formikForm";
 
 function App() {
   return (
