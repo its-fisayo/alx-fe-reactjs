@@ -22,6 +22,7 @@ export const useRecipeStore = create((set, get) => ({
 
   searchTerm: "",
   filteredRecipes: [],
+  setRecipes: "",
 
   favorites: [],
   recommendations: [],
