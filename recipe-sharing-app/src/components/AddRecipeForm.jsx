@@ -6,7 +6,7 @@ const AddRecipeForm = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
 
-  const submit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     if (!title.trim()) return;
 
@@ -21,7 +21,7 @@ const AddRecipeForm = () => {
   };
 
   return (
-    <form onSubmit={submit}>
+    <form onSubmit={handleSubmit}>
       <input
         value={title}
         onChange={(e) => setTitle(e.target.value)}
